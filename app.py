@@ -13,7 +13,8 @@ region_df = pd.read_csv('noc_regions.csv')
 # Pass the DataFrames, not strings
 df = preprocessor.preprocess(df, region_df)
 st.sidebar.title("Olympic Data Analysis")
-st.sidebar.image(r"C:\Users\HP\Downloads\olympic data analysis\pngwing.com (1).png")
+st.sidebar.image(r"pngwing.com (1).png")
+
 user_menu=st.sidebar.radio(
     'Select An Option',('Medal Tally','Overall Analysis','Country-wise Analysis'
 ,'Athlete-Wise Analysis')
